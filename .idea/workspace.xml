@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="256d8aba-14a9-433e-9e8c-7d2c63b16668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-lastfm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.php_cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/lastfm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFetcher.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidPeriodException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/MalformedDataException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/ResponseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lastfm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LastfmServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/LastfmMockResponses.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/DataFetcherTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/LastfmTest.php" afterDir="false" />
+    <list default="true" id="256d8aba-14a9-433e-9e8c-7d2c63b16668" name="Default Changelist" comment="intial commit, attempting to allow it to work on Laravel 8.*">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +48,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604643879955</updated>
-      <workItem from="1604643881015" duration="1847000" />
+      <workItem from="1604643881015" duration="2225000" />
     </task>
+    <task id="LOCAL-00001" summary="intial commit, attempting to allow it to work on Laravel 8.*">
+      <created>1604646036864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604646036864</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,10 +74,18 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intial commit, attempting to allow it to work on Laravel 8.*" />
+    <option name="LAST_COMMIT_MESSAGE" value="intial commit, attempting to allow it to work on Laravel 8.*" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2587" y="253" width="586" height="534" key="find.popup" timestamp="1604644835391">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604646038848">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2587" y="253" width="586" height="534" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604644835391" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604646038848" />
+    <state x="2587" y="253" width="586" height="534" key="find.popup" timestamp="1604646087545">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2587" y="253" width="586" height="534" key="find.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604646087545" />
   </component>
 </project>

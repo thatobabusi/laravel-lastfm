@@ -1,4 +1,4 @@
-# Last.fm API client for PHP 7
+# Last.fm API client for PHP 8.*
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
