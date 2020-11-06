@@ -1,0 +1,64 @@
+{
+    "name": "thatobabusi/laravel-lastfm",
+    "type": "library",
+    "description": "Last.fm API client for PHP 7+",
+    "keywords": [
+        "lastfm",
+        "last.fm",
+        "api",
+        "client",
+        "php7",
+        "laravel",
+        "laravel5",
+        "service provider"
+    ],
+    "homepage": "https://github.com/thatobabusi/laravel-lastfm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thato Babusi",
+            "email": "thatobabusi@yahoo.com",
+            "homepage": "https://thatobabusi.co.za",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": ">=6.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "phpunit/phpunit": "~5.0||~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thatobabusi\\LaravelLastFm\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "vendor/bin/php-cs-fixer fix --dry-run",
+        "fix-style": "vendor/bin/php-cs-fixer fix"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Thatobabusi\\LaravelLastFm\\LastfmServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "support": {
+        "issues": "https://github.com/thatobabusi/laravel-lastfm/issues"
+    }
+}
